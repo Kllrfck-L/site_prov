@@ -1,0 +1,378 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.mobile{
+    display: none;
+}
+.desk{
+    display: inline;
+}
+header{
+    display:flex ;
+    justify-content: space-around;
+}
+#hed{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 3%;
+}
+.ver{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr 2fr;
+    align-items:center ;
+}
+
+.num{
+    display: flex;
+    text-align: left;
+}
+.bt1{
+    color: rgba(255, 239, 222, 1);
+    background-color: rgba(240, 86, 112, 1);
+    width: 100%;
+    height: 120%;
+    border-radius: 15px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+}
+.num{
+    color: rgba(30, 149, 155, 1);
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 10%;
+}
+#otraslev{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+.ca1{
+    margin-left: 20px;
+}
+.TE1{
+    color: rgba(30, 149, 155, 1);
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+.TE2{
+    color: rgba(60, 60, 60, 1);
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-top: -23px;
+}
+.las{
+    margin-left: 10%;
+}
+.laspng{
+    margin-top: 90px;
+}
+.btn21{
+    color: rgba(255, 239, 222, 1);
+    background-color: rgba(240, 86, 112, 1);
+    width: 257px;
+    height: 70px;
+    border-radius: 15px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    margin-top: 113px;
+    box-shadow: 0 10px 6px rgba(73, 102, 149, 0.2);
+}
+.btn22{
+    color: rgba(255, 239, 222, 1);
+    background-color: rgba(240, 86, 112, 1);
+    width: 257px;
+    height: 70px;
+    border-radius: 15px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 10px 6px rgba(73, 102, 149, 0.2);
+}
+.btn23{
+    color: rgba(255, 239, 222, 1);
+    background-color: rgba(240, 86, 112, 1);
+    width: 257px;
+    height: 70px;
+    border-radius: 15px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    margin-top: 45px;
+    box-shadow: 0 10px 6px rgba(73, 102, 149, 0.2);
+}
+.zag{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+    color: rgba(30, 149, 155, 1);
+    font-family: sans-serif;
+}
+.cad2{
+    margin-top: 5%;
+    margin-left: 13%;
+    margin-right: 13%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.card2{
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: sans-serif;
+    align-items: center;
+    color: rgba(60, 60, 60, 1);
+    box-shadow: 0 10px 15px -10px rgba(30, 149, 155, 0.5);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+}
+.bg2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.polotno{
+    margin-top: 20%;
+    height: 154 px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: rgba(30, 149, 155, 1);
+}
+.card4{
+    height: 210%;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: sans-serif;
+    align-items: center;
+    color: rgba(60, 60, 60, 1);
+    box-shadow: 0 10px 15px -10px rgba(30, 149, 155, 0.5);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -20%;
+}
+.krka{
+    background-image: url("img/krug.png");
+    height: 182px;
+    width: 182px;
+    margin-top: -30%;
+    margin-bottom: 30px;
+}
+.bt4{
+    border: none;
+    color: rgba(255, 239, 222, 1);
+    background-color: rgba(240, 86, 112, 1);
+    width: 200%;
+    height: 200%;
+    border-radius: 20px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: -50%;
+    box-shadow: 0 10px 6px rgba(73, 102, 149, 0.2);
+}
+.podval{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 1fr 1fr 1fr 3fr;
+    color: rgba(255, 239, 222, 1);
+    font-size: 10px;
+    color: rgba(60, 60, 60, 1);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+}
+.podt{
+    color: rgba(30, 149, 155, 1);
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.podt1{
+    color: rgba(30, 149, 155, 1);
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+.telnum{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.pnga{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+.prava{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 21px;
+    color: rgba(60, 60, 60, 0.5);
+}
+@media screen and (max-width: 980px) {
+    .mobile{
+        display: block;
+    }
+    .desk{
+        display: none;
+    }
+    #otraslevm{
+        margin-top: 20px;
+        display: grid;
+        align-items: center;
+        text-align: center;
+    }
+    .btn21m{
+        color: rgba(255, 239, 222, 1);
+        background-color: rgba(240, 86, 112, 1);
+        width: 257px;
+        height: 70px;
+        border-radius: 15px;
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        margin-top: 10px;
+        box-shadow: 0 10px 6px rgba(73, 102, 149, 0.2);
+    }
+    .zagm{
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+        text-align: center ;
+        justify-content: center;
+        color: rgba(30, 149, 155, 1);
+        font-family: sans-serif;
+    }
+    .cad2m{
+        margin-top: 5%;
+        margin-left: 13%;
+        margin-right: 13%;
+        display: grid;
+    }
+    .card2m{
+        background-color: rgba(255, 255, 255, 1);
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: sans-serif;
+        align-items: center;
+        color: rgba(60, 60, 60, 1);
+        box-shadow: 0 10px 15px -10px rgba(30, 149, 155, 0.5);
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 2%;
+    }
+
+    .polotnom{
+        margin-top: 30%;
+        height: 100px;
+        width: 100%;
+        display: grid;
+    }
+    .card4m{
+        height: 300%;
+        background-color: rgba(255, 255, 255, 1);
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: sans-serif;
+        align-items: center;
+        color: rgba(60, 60, 60, 1);
+        box-shadow: 0 10px 15px -10px rgba(30, 149, 155, 0.5);
+        margin-left: 25%;
+        margin-right: 10%;
+        margin-top: -20%;
+        width: 50%;
+    }
+    .krkam{
+        background-image: url("img/krug.png");
+        height: 182px;
+        width: 182px;
+        margin-top: -30%;
+    }
+    .bt4m{
+        border: none;
+        color: rgba(255, 239, 222, 1);
+        background-color: rgba(240, 86, 112, 1);
+        width: 200%;
+        height: 200%;
+        border-radius: 20px;
+        font-family: sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        margin-left: -50%;
+        box-shadow: 0 10px 6px rgba(73, 102, 149, 0.2);
+    }
+    .podvalm{
+        margin-top: 30%;
+    }
+    .podtm{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        color: rgba(30, 149, 155, 1);
+        font-size: 16px;
+        font-family: sans-serif;
+        align-items: center;
+        justify-content: center;
+        margin-left: 7%;
+    }
+    .podt1m{
+        color: rgba(30, 149, 155, 1);
+        font-size: 16px;
+        font-family: sans-serif;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .telnum{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .svazm{
+        display: grid;
+        grid-template-columns: 3fr 1fr 1fr;
+    }
+    .pnga{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+    }
+    .indm{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        font-size: 12px;
+        color: rgba(60, 60, 60, 1);
+    }
+    .prava{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 16px;
+        color: rgba(60, 60, 60, 0.5);
+    }
+}
